@@ -159,7 +159,7 @@ public class Main extends JFrame {
 		    	try {
 		    		
 		    		System.out.println("GOODBYE!!!");
-			    	FileWriter writer = new FileWriter("/Users/jarcm/Desktop/output.txt", true); 
+			    	FileWriter writer = new FileWriter("/Users/tltr/Desktop/output.txt", true); 
 			    	
 			    	for (Utilizador utilizador1 : listaU) {
 						writer.write(utilizador1.getNome()+"\n");
@@ -833,7 +833,7 @@ public class Main extends JFrame {
 
 		
 		BufferedReader br = null;
-		String ficheiro = "/Users/jarcm/Desktop/output.txt";
+		String ficheiro = "/Users/tltr/Desktop/output.txt";
 		
 		String nome="";
 		String cidade="";
